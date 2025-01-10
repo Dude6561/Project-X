@@ -1,7 +1,6 @@
-import Imgnav from "./imagenav";
 export default function Navbar() {
   return (
-    <nav>
+    <nav className="">
       <ul className="absolute left-[100px] top-5 flex space-x-6 p-4 text-xl font-bold">
         <li>
           <a href="#Home">Home</a>
